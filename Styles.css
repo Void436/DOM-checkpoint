@@ -1,0 +1,118 @@
+/* general stuff */
+
+*{
+    margin: 0;
+    padding: 0px;
+    color: white;
+}
+
+body{
+    background-image: url("https://www.bhmpics.com/downloads/graphite-wallpaper/1.2037529.png");
+    background-repeat: repeat-y;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 50px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 200px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
+
+/* texts */
+
+#totaltext{
+    font-size: 35px;
+}
+
+#pricemice{
+    font-size: 35px;
+}
+
+#pricekeyboard{
+    font-size: 35px;
+}
+
+#priceheadset{
+    font-size: 35px;
+}
+
+#pricepad{
+    font-size: 35px;
+}
+
+#pricebungee{
+    font-size: 35px;
+}
+
+#pricestation{
+    font-size: 35px;
+}
+
+
+/* image */
+
+#main img{
+    height: 175px;
+    width: 275px;
+    border-radius: 10px;
+}
+
+
+/* related to inputs */
+
+input{
+    color: black;
+    font-size: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+#totalcoupon input {
+    color: black;
+    font-size: 20px;
+    height: 70px;
+    width: 270px;
+}
+
+#totalcoupon h2 span{
+    color: red;
+    text-decoration: underline;
+}
+
+i .ss{
+    height: 20px;
+    width: 20px;
+}
+
+#btttb{
+    font-size: 27px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+/* container thingy */
+
+.container text-center{
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ppp{
+    background-color: transparent !important;
+}
+
+/* the icons */
+
+#xheart{
+    background-color: transparent;
+}
